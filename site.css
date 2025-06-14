@@ -18,7 +18,23 @@
 }
 
 .game-tile.solved {
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
     width: calc(100% - 6px);
     font-weight: bolder;
+}
+
+.game-tile.solved-0 {
+    background-color: lightyellow;
+}
+
+.game-tile.solved-1 {
+    background-color: lightpink;
+}
+
+.game-tile.solved-2 {
+    background-color: lightblue;
+}
+
+.game-tile.solved-3 {
+    background-color: lightgreen;
 }

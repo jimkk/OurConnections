@@ -55,6 +55,7 @@ function checkForGuess(){
             })
             firstTile.classList.remove('selected');
             firstTile.classList.add('solved');
+            firstTile.classList.add('solved-' + numberOfSolved);
             firstTile.textContent = correctGuessWithSolution[4].replace(',', '');
             gameBoard.insertBefore(firstTile, gameBoard.children[numberOfSolved]);
             numberOfSolved++;
